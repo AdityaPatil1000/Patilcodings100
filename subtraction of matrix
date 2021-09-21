@@ -1,0 +1,29 @@
+#python program for addition of simple matrix without numpy
+#try to run code in vs code
+num=[2,3,4],[5,6,7,]
+num2=[8,9,10],[11,12,12]
+num3=[0,0,0],[0,0,0]
+for i in range(len(num)):
+    print(num[i])
+print()
+for i in range(len(num)):
+    print(num2[i])
+for i in range(len(num)):
+    for j in range(len(num)+1):
+        num3[i][j]=num[i][j]+num2[i][j]
+    
+print("Addition of matrix")
+for i in range(len(num3)):
+    print(num3[i])
+print("Code by: aditya patil")
+
+output:
+2, 3, 4]
+[5, 6, 7]
+
+[8, 9, 10]
+[11, 12, 12]
+Addition of matrix
+[10, 12, 14]
+[16, 18, 19]
+Code by: aditya patil
