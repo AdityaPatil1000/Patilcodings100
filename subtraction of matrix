@@ -12,7 +12,7 @@ for i in range(len(num)):
     for j in range(len(num)+1):
         num3[i][j]=num[i][j]+num2[i][j]
     
-print("Addition of matrix")
+print("Subtraction of matrix")
 for i in range(len(num3)):
     print(num3[i])
 print("Code by: aditya patil")
